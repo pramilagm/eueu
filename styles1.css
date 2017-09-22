@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: tahoma;
+}
+.row{
+	margin: 0 auto;
+	max-width: 1140px;
+}
+
+
+
+.hero{
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+}
+ header{
+	background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(img/junk.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.main-nav{
+	list-style: none;
+	float: right;
+	padding-top: 25px;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-left: 20px;
+
+}
+.main-nav li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 90%;
+	font-weight: bold;
+}
+.main-nav li a:hover{
+	color: #e67e22;
+	border-bottom: 2px solid #e67e22;
+	transition:all 0.5s ease-in;
+	padding:15px 0;
+}
+.hero h1
+{
+	
+	color: #ffffff;
+}
+.logo img{
+	height: 150px;
+	float: left;
+}
+.hero a{
+	color: white;
+}
+
+.btn{
+	border: 1px solid #e67e22;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: #e67e22;
+	border-radius: 12px;
+	margin-right: 15px;
+
+}
+.awesome-button{
+	margin-top: 50px;
+}
+.btn-half{
+	background-color: #e67e22;
+	color: white;
+}
+.btn-full:hover{
+	background-color: #e67e22;
+	color: white;
+
+}
+
+
+/*----get food fast----*/
+.copy{
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 30px;
+
+}
+h3:after{
+	width: 100px;
+	height: 2px;
+	background-color: #e67e22;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top:25px;
+}
+.features h3{
+	margin-top: 80px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.para{
+	text-align: justify;
+}
+.features i{
+	font-size: 40px;
+	color: #e67e22;
+	margin-left: 35%;
+
+}
+.features h4{
+	margin-left: 40px;
+}
